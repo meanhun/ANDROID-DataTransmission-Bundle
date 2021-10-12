@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_GetData">
+
+    <TextView
+        android:id="@+id/getString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET STRING"
+        android:textAlignment="center"
+        android:textSize="29dp"/>
+
+    <TextView
+        android:id="@+id/getInt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET Int"
+        android:layout_below="@+id/getString"
+        android:textAlignment="center"
+        android:textSize="29dp"/>
+
+    <TextView
+        android:id="@+id/getFloat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET Float"
+        android:layout_below="@+id/getInt"
+        android:textAlignment="center"
+        android:textSize="29dp"/>
+</RelativeLayout>
